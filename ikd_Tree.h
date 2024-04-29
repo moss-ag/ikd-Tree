@@ -1,4 +1,7 @@
 #pragma once
+
+#define PCL_NO_PRECOMPILE
+
 #include <stdio.h>
 #include <queue>
 #include <pthread.h>
@@ -8,6 +11,7 @@
 #include <math.h>
 #include <algorithm>
 #include <memory.h>
+#include "point_types.h"
 #include <pcl/point_types.h>
 
 #define EPSS 1e-6
